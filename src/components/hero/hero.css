@@ -1,0 +1,154 @@
+.hero-main-cont {
+   width: 100%;
+   display: flex;
+   padding: 1.5rem 3rem;
+   align-self: start;
+   margin-top: -6rem;
+   justify-content: center;
+}
+
+.cta {
+   margin: 0.5rem 0 3rem 0;
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+}
+
+.text_name{
+   display: flex;
+   font-size: 30px;
+}
+
+.alt-text-yellow {
+   color: yellow;
+   padding-left: 0.5rem;
+}
+
+.hero-flex {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   max-width: 1440px;
+   overflow: hidden;
+   transition: all 3s ease-in-out;
+}
+
+.hero-main-text {
+   font-size: 54px;
+   line-height: 1.5;
+}
+
+.hero-img {
+   width: 100%;
+}
+
+.hero-sub-cont-1 {
+   display: flex;
+   flex-direction: column;
+   font-weight: 600;
+   font-size: 18px;
+   flex: 1;
+}
+
+/* .tagline {
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   padding: 8px 10px;
+   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   font-size: 20px;
+   margin-bottom: 16px;
+   display: inline-block;
+   width: 45%;
+ } */
+
+/* .alt-text {
+   color: red;
+} */
+
+.hero-sub-cont{
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+}
+
+.react-text {
+color: rgb(9, 230, 9);
+}
+
+.node-text{
+   color: rgb(44, 14, 162);
+}
+.node-text{
+   color: lightblue;
+}
+
+
+.btn-div {
+   display: flex;
+   gap: 20px;
+   margin-top: 1rem;
+
+}
+
+.wave {
+   font-size: 40px;
+}
+
+@media (max-width : 1000px) {
+   .hero-main-text {
+      font-size: 35px;
+   }
+
+   .hero-flex {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (max-width : 600px) {
+   .hero-flex {
+      grid-template-columns: 1fr;
+      padding: 4rem 0 0;
+
+   }
+
+   .text_name{
+      font-size: 22px;
+      margin-bottom: 1rem;
+   }
+
+   .wave {
+      font-size: 35px;
+   }
+
+   .hello_text{
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 1rem;
+   }
+
+   .hero-main-text {
+      font-size: 23px;
+      line-height: 2;
+   }
+
+   .btn {
+      font-size: 13px;
+   }
+
+   .what_am_i {
+      font-size: 15px;
+   }
+
+   .hero-subtext {
+      font-size: 12px;
+   }
+
+   /* .tagline {
+      width: 86%;
+      font-size: 16px;
+      text-align: center;
+   } */
+}
